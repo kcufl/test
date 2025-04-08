@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  description: 테스트용 서비스입니다.
+  annotations:
+    github.com/project-slug: kcufl/test
+spec:
+  type: service
+  lifecycle: production
+  owner: team-a
