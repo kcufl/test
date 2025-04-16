@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: User
+metadata:
+  name: 김진철
+  annotations:
+    graph.microsoft.com/user-id: e0f4beb8-853b-4f45-8af4-4f9ea734928a
+spec:
+  profile:
+    displayName: 김 진철
+    email: kcufl@kcufloutlook.onmicrosoft.com
+  memberOf:
+    - guests
