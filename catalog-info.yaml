@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: github
-  description: 테스트용 서비스입니다.
+  description: Github 테스트용 서비스
   annotations:
     github.com/project-slug: kcufl/test
 spec:
