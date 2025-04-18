@@ -2,8 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: test
+  description: ArgoCD 테스트용 서비스
   annotations:
     argocd/app-name: your-argocd-app-name
 spec:
   type: service
+  lifecycle: production
   owner: team-acd
