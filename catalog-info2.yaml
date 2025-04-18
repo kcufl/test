@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: test
+  annotations:
+    argocd/app-name: your-argocd-app-name
+spec:
+  type: service
+  owner: team-acd
