@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: example-url-api
+  description: A demo API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: team-a
+  definition:
+    $text: https://raw.githubusercontent.com/github/rest-api-description/main/descriptions/api.github.com/api.github.com.yaml
